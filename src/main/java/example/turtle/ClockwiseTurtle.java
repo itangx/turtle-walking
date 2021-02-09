@@ -78,8 +78,4 @@ public class ClockwiseTurtle extends Turtle {
         walkUp();
         walkUpToEndOfWall(coordinateValues, topWall);
     }
-
-    private boolean isWallOverlapped(int leftWall, int topWall, int bottomWall, int rightWall) {
-        return bottomWall < topWall || leftWall < rightWall;
-    }
 }
